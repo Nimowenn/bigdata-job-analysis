@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>郭欣月 · 个人简历</title>
+<style>
+  :root { --ink:#1e293b; --muted:#64748b; --accent:#2563eb; --accent2:#f59e0b; --line:#e2e8f0; --bg:#f8fafc; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:"Microsoft YaHei","PingFang SC",sans-serif; color:var(--ink); background:var(--bg); line-height:1.8; }
+  .hero { background:linear-gradient(135deg,#1e3a8a 0%,#2563eb 55%,#3b82f6 100%); color:#fff; padding:44px 0 36px; }
+  .hero-inner { max-width:860px; margin:0 auto; padding:0 24px; }
+  .back { color:rgba(255,255,255,.85); font-size:14px; text-decoration:none; display:inline-block; margin-bottom:18px; }
+  .back:hover { color:#fff; text-decoration:underline; }
+  .id { display:flex; align-items:center; gap:20px; }
+  .avatar { width:76px; height:76px; border-radius:50%; background:rgba(255,255,255,.18); border:2px solid rgba(255,255,255,.5); display:flex; align-items:center; justify-content:center; font-size:30px; font-weight:700; flex-shrink:0; }
+  .id h1 { font-size:30px; font-weight:700; }
+  .id .sub { font-size:15px; color:rgba(255,255,255,.9); margin-top:2px; }
+  .id .aim { display:inline-block; margin-top:8px; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.3); color:#fff; font-size:14px; padding:3px 14px; border-radius:99px; }
+  main { max-width:860px; margin:0 auto; padding:28px 24px 72px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:22px 26px; margin:16px 0; box-shadow:0 1px 4px rgba(15,23,42,.05); }
+  h2 { font-size:20px; margin:4px 0 14px; padding-left:13px; border-left:4px solid var(--accent); color:#0f172a; }
+  .meta { font-size:14px; color:var(--muted); margin-bottom:6px; }
+  .item { margin:14px 0; }
+  .item .title { font-weight:700; font-size:15px; }
+  .item .date { float:right; font-size:13px; color:var(--muted); font-weight:400; }
+  ul { margin:6px 0 0 20px; }
+  li { margin:3px 0; font-size:14.5px; }
+  .contact { display:flex; gap:10px; flex-wrap:wrap; }
+  .contact span { background:#eef4ff; color:var(--accent); font-size:13.5px; padding:5px 14px; border-radius:99px; }
+  .skills table { width:100%; border-collapse:collapse; font-size:14.5px; }
+  .skills td { border:1px solid var(--line); padding:9px 14px; vertical-align:top; }
+  .skills td:first-child { width:130px; background:#f1f5f9; font-weight:700; color:#0f172a; }
+  .certs { font-size:15px; }
+  .footer { text-align:center; color:var(--muted); font-size:13px; margin-top:8px; }
+  .footer a { color:var(--accent); text-decoration:none; }
+  .footer a:hover { text-decoration:underline; }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <a class="back" href="index.html">← 返回作品集首页</a>
+    <div class="id">
+      <!-- 头像占位：替换为照片时，把下面这个 div 换成 <img src="照片" style="width:76px;height:76px;border-radius:50%;object-fit:cover;"> -->
+      <div class="avatar">郭</div>
+      <div>
+        <h1>郭欣月</h1>
+        <p class="sub">大数据技术与应用 · 大专 ｜ 2027.06 毕业 ｜ 现居成都</p>
+        <span class="aim">求职意向：数据分析助理 / 数据标注与 AI 训练（成都）</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="card">
+  <h2>联系方式</h2>
+  <div class="contact">
+    <span>电话 187 2848 2251</span>
+    <span>微信 peterlee3_enmm</span>
+    <span>现居 成都</span>
+  </div>
+</section>
+
+<section class="card">
+  <h2>教育背景</h2>
+  <div class="item">
+    <div class="title">四川财经职业学院 ｜ 大数据技术与应用 ｜ 大专 <span class="date">2024.09 – 2027.06</span></div>
+    <p style="font-size:14.5px; margin-top:6px;"><b>主干课程：</b>数据标注及治理、数据采集与预处理、大数据分析与可视化、数据处理基础、数据库应用、Python 基础、Hadoop／Spark 基础</p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>项目与实践经历</h2>
+  <div class="item">
+    <div class="title">数据标注与治理实训项目（独立完成）<span class="date">2025 年</span></div>
+    <ul>
+      <li>按标注规范完成图像 47 张、音频 287 分钟的标注（分类与打点），标注准确率 98%；</li>
+      <li>输出 JSON 结构化标注文件，完成格式校验与清洗，形成可复用标注数据集；</li>
+      <li>撰写实训报告，沉淀标注规范执行要点与常见错误清单。</li>
+    </ul>
+  </div>
+  <div class="item">
+    <div class="title">低代码开发实训：员工请假流程系统（独立完成）<span class="date">2025 年</span></div>
+    <ul>
+      <li>独立搭建含 8 个表单字段、18 个审批节点的请假流程，完成表单设计、流程配置到运行验证全流程；</li>
+      <li>排查流程异常并跑通业务闭环，输出实训报告与操作总结。</li>
+    </ul>
+  </div>
+  <div class="item">
+    <div class="title">大数据岗位招聘数据分析（求职作品集项目）<span class="date">2026 年</span></div>
+    <ul>
+      <li>采集 51job 川渝「大数据」岗位 946 条，去重过滤后得 399 条真实数据岗位；</li>
+      <li>完成薪资结构化、技能词频、岗位分类与地域分布分析，输出可视化报告并部署为 GitHub Pages 作品集。</li>
+    </ul>
+  </div>
+</section>
+
+<section class="card">
+  <h2>校园社团经历</h2>
+  <div class="item">
+    <div class="title">大数据社团 · 技术部成员<span class="date">2025 年</span></div>
+    <ul>
+      <li>参与社团「校园招聘信息观察」项目：用 Python 采集整理校内招聘信息 300 余条，按岗位类型分类统计，输出图表 6 张；</li>
+      <li>主讲技术分享 2 场（Python 数据清洗、Excel 数据透视表），累计参与 70 余人次；</li>
+      <li>协助组织数据标注体验工作坊 3 场，累计 90 人次参与，产出标注样本 1500 条。</li>
+    </ul>
+  </div>
+</section>
+
+<section class="card skills">
+  <h2>专业技能</h2>
+  <table>
+    <tr><td>数据治理</td><td>数据标注与治理、数据采集与预处理</td></tr>
+    <tr><td>办公与数据分析</td><td>Excel（数据录入、筛选、汇总）、数据可视化</td></tr>
+    <tr><td>编程语言</td><td>Python、Java</td></tr>
+    <tr><td>数据库</td><td>SQL、关系型数据库、NoSQL</td></tr>
+  </table>
+</section>
+
+<section class="card">
+  <h2>证书</h2>
+  <p class="certs">英语四级（CET-4） ｜ 普通话二级乙等 ｜ 驾驶证</p>
+</section>
+
+<div class="footer">
+  在线版简历 · 完整数据分析作品见 <a href="index.html">作品集首页</a> 与 <a href="report.html">项目报告</a>
+</div>
+
+</main>
+</body>
+</html>
